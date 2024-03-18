@@ -1,0 +1,64 @@
+mpicc -fopenmp -lm -O3 my_advection_program.c -o my_advection_program
+--------------------------------------------------------------------
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 1	nprocs = 1
+Total time taken = 259.562868 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 1	nprocs = 2
+Total time taken = 126.612660 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 1	nprocs = 4
+Total time taken = 67.778142 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 1	nprocs = 9
+Total time taken = 33.645054 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 1	nprocs = 16
+Total time taken = 21.271838 seconds
+--------------------------------------------------------------------
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 1	nprocs = 1
+Total time taken = 260.141417 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 2	nprocs = 1
+Total time taken = 131.909314 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 4	nprocs = 1
+Total time taken = 69.001635 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 9	nprocs = 1
+Total time taken = 36.050361 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 16	nprocs = 1
+Total time taken = 28.760982 seconds
+--------------------------------------------------------------------
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 16	nprocs = 1
+Total time taken = 28.615454 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 16	nprocs = 2
+Total time taken = 14.957911 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 16	nprocs = 4
+Total time taken = 6.533274 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 16	nprocs = 9
+Total time taken = 3.165185 seconds
+max avail threads = 16
+N = 4000	NT = 8000
+nthreads = 16	nprocs = 16
+Total time taken = 2.201009 seconds

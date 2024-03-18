@@ -1,0 +1,10 @@
+my_advection_program.exe
+my_advection_program
+matrix.dat
+animation.dat
+slurm_out/
+startend.dat
+*.dat
+startend.dat
+startend.dat
+!slurm_out/14887319-individual.out
